@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mortgage-calculator-Wray</string>
+    <string name="title_activity_mortgage__output">Mortgage_Output</string>
+    <string name="title_activity_payment__summary">Payment_Summary</string>
+</resources>

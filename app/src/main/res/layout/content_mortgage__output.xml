@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mobileappdevelopment.mortgage_calculator_wray.Mortgage_Output"
+    tools:showIn="@layout/activity_mortgage__output">
+
+
+    <TextView
+        android:id="@+id/mortgageCalcInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="7pt"
+        android:text="I don't know how to do mortgage calculations and I haven't the time to find out to here is homeVal disguised as mortgage calculation"/>
+
+    <TextView
+        android:id="@+id/mortgageDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="7pt"
+        android:text=""/>
+
+</RelativeLayout>

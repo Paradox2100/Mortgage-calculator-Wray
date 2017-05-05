@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobileappdevelopment.mortgage_calculator_wray.Mortgage_Input">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Please fill out the information below by tapping the word, then hit calculate"
+        android:textSize="7pt"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/homeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Home Value"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/loanAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Loan Amount"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/intrestRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Intrest Rate"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/loanTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Loan Term"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Start Date"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/propertyTax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Property Tax"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/homeInsurance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Home Insurance per Year"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/HOA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Monthly HOA"
+        android:textColorHint="#b7c0c7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:textSize="7pt"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/calculateMortgageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Mortgage"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"/>
+
+    <Button
+        android:id="@+id/paymentSummaryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Summary"
+        android:textSize="8pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"/>
+
+</RelativeLayout>
